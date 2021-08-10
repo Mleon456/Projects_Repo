@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add Reimbursement</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="/Project_1_Reimbursement/resources/css/mystyles.css" />
+
+
+</head>
+<body>
+
+	<form method="POST" action="/Project_1_Reimbursement/forwarding/addReimbursement">
+			<h4> Add Reimbursement Form </h4>
+
+        Reimbursement Information:
+        <input type="text" name="description" placeholder="ex: Test materials" required/>
+
+        <input type="number" name="amount" placeholder="Amount" required/>
+
+        <br><br><br>
+
+        <!-- first group of radio buttons -->
+        <input type="radio" name="Type" value="1" required />
+        Lodging
+        <input type="radio" name="Type" value="2" required/>
+        Food
+        <input type="radio" name="Type" value="3" required/>
+        Travel
+        <input type="radio" name="Type" value="4" required/>
+        Other
+        <br><br> 
+       
+
+        <br><br>
+        <input type="submit" value="Submit information"/>
+		</form>
+	
+
+</body>
+</html>
