@@ -33,7 +33,6 @@ Clone the repository: git clone https://github.com/Mleon456/Projects_Repo.git
 
 Open the project in an IDE. Download the dependencies, then deploy it on a server. 
 * All the code is in the Project_1_Reimbursement repository.
-* Images of what it looks like can be found in the screenshots repository
 
 # Usage
 * Once you start the application, you can login to a manager account or an employee account and manipulate the 
