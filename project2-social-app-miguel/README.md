@@ -44,8 +44,8 @@ Open in IDE. Download dependencies. Run the backend on a server first. Then run 
 
 # Usage
 Once you start the application you can login using 
-username: miguelusername
-password: password
+* username: miguelusername
+* password: password
 
 
 
