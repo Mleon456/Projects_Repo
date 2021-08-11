@@ -1,39 +1,52 @@
-# Project2 - Social App
+# Revature Social Network (React) v2 
 
-Revature Social Application!
+# Project Description 
+In Revature's Social Network everyone is friends with everyone else. Users can register, login to the application, and start sharing multimedia with everyone. Registered users are allowed to modify their personal information and upload their profile pictures. The application provides a search feature that allows users to search out friends and look at their profiles. Users are provided with a "feed", in which they can see what everyone is posting and like posts. Users can access and use the application via an interactive client-side single paged application that stores and retrieves multimedia using AWS S3 and consumes a RESTful web service that provides business logic and access to a database.
 
-## For Devs!
+# Technologies Used
+* Java
+* Spring
+* SQL 
+* Hibernate
+* HTML 
+* CSS
+* JavaScript
+* Log4J
+* React
+* Redux
+* AWS: S3
 
-**Make sure you clone outside of our 2015-may24 Repo! This is very important and could cause problems later!**
+# Features 
+Current Features:
+Users can:
+• Register
+• Login/Logout.
+• Reset their password through an email feature.
+• Modify their information.
+• Upload a profile picture (using AWS: S3).
+• Search other people.
+• Create a post.
+• View their own profile and posts.
+• View others’ profile and their posts.
+• See their feed.
+• Like someone’s post.
 
-```
-dolso@DESKTOP-K1SO99G MINGW64 ~/Desktop/RevProject2
-$ git clone https://gitlab.com/deolson1/project2-social-app.git
-Cloning into 'project2-social-app'...
+To-do List: 
+* Leaving comments under posts
+* Add users to "favorites/best friends" list
 
-dolso@DESKTOP-K1SO99G MINGW64 ~/Desktop/RevProject2
-$ cd project2-social-app/
-```
+# Getting Started 
+Clone the repostitory: git clone https://github.com/Mleon456/Projects_Repo.git
 
-After you have cloned the repo and cd'ed into it you have (dev)
-Now we want to make our own branches, run the following:
+Open in IDE. Download dependencies. Run the backend on a server first. Then run the frontend on its server. 
+* All the code is in the project2-social-app-miguel repository
+* Images of what it should look like can be found in the screenshots repository
 
-    git checkout -b YOUR_NAME_HERE
+# Usage
+Once you start the application you can login using 
+* username: miguelusername
+* password: password
 
-The -b will create the branch if none exists.
-I've locked the main branch so that we can try our best to implement good workflow strategies, our general commits will look like 
 
-```
-dolso@DESKTOP-K1SO99G MINGW64 ~/Desktop/RevProject2/project2-social-app (david)
-$ git add .
-
-dolso@DESKTOP-K1SO99G MINGW64 ~/Desktop/RevProject2/project2-social-app (david)
-$ git commit -m "adding my own branch and a readme img"
-
-dolso@DESKTOP-K1SO99G MINGW64 ~/Desktop/RevProject2/project2-social-app (david)
-$ git push origin YOUR_NAME_HERE
-```
-
-We can then merge our individual branches onto dev when needed
 
 
